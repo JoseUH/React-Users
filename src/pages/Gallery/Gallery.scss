@@ -1,0 +1,25 @@
+.peliculas{
+    display: flex;
+  justify-content: space-around;
+   flex-wrap: wrap;
+   width: 100%;
+   gap: 10px;
+   padding-top: 10px;
+    .carta{
+        
+        width: 16rem;
+        text-align: center;
+        color: whitesmoke;
+        border: double 1px whitesmoke;
+        
+        img{
+            width:80%;
+            
+            object-fit: cover;
+        }
+        
+        
+    }
+      
+
+}
